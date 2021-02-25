@@ -1,0 +1,14 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "dist/a.cjs.js",
+  "module": "dist/a.esm.js",
+  "author": "David",
+  "license": "MIT",
+  "preconstruct": {
+    "entrypoints": [
+      "index.js",
+      "utils/index.js"
+    ]
+  }
+}

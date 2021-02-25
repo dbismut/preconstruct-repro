@@ -1,0 +1,23 @@
+{
+  "name": "preconstruct-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "postinstall": "preconstruct dev",
+    "dev": "preconstruct dev",
+    "build": "preconstruct build"
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.0.5"
+  }
+}
