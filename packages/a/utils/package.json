@@ -1,4 +1,4 @@
 {
-  "main": "dist/a-utils.cjs.js",
-  "module": "dist/a-utils.esm.js"
+  "main": "dist/myrepo-a-utils.cjs.js",
+  "module": "dist/myrepo-a-utils.esm.js"
 }

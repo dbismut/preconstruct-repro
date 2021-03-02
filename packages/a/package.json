@@ -1,8 +1,8 @@
 {
-  "name": "a",
+  "name": "@myrepo/a",
   "version": "1.0.0",
-  "main": "dist/a.cjs.js",
-  "module": "dist/a.esm.js",
+  "main": "dist/myrepo-a.cjs.js",
+  "module": "dist/myrepo-a.esm.js",
   "author": "David",
   "license": "MIT",
   "preconstruct": {

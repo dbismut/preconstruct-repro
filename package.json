@@ -5,7 +5,8 @@
   "author": "David",
   "license": "MIT",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "b"
   ],
   "preconstruct": {
     "packages": [
@@ -15,7 +16,8 @@
   "scripts": {
     "postinstall": "preconstruct dev",
     "dev": "preconstruct dev",
-    "build": "preconstruct build"
+    "build": "preconstruct build",
+    "vite": "yarn workspace b dev"
   },
   "devDependencies": {
     "@preconstruct/cli": "^2.0.5"
