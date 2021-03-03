@@ -6,7 +6,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/*",
-    "b"
+    "b",
+    "c"
   ],
   "preconstruct": {
     "packages": [
@@ -17,7 +18,8 @@
     "postinstall": "preconstruct dev",
     "dev": "preconstruct dev",
     "build": "preconstruct build",
-    "vite": "yarn workspace b dev"
+    "vite": "yarn workspace b dev",
+    "snowpack": "yarn workspace c start"
   },
   "devDependencies": {
     "@preconstruct/cli": "^2.0.5"
