@@ -5,10 +5,11 @@
   "module": "dist/myrepo-a.esm.js",
   "author": "David",
   "license": "MIT",
+  "types": "dist/myrepo-a.cjs.d.ts",
   "preconstruct": {
     "entrypoints": [
-      "index.js",
-      "utils/index.js"
+      "index.ts",
+      "utils/index.ts"
     ]
   }
 }
