@@ -21,7 +21,7 @@
     "snowpack": "yarn workspace c start"
   },
   "devDependencies": {
-    "@preconstruct/cli": "^2.0.5",
+    "@preconstruct/cli": "^2.0.6",
     "typescript": "^4.2.2"
   }
 }
